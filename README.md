@@ -9,7 +9,7 @@ Use branches to access different reproduction cases.
 
 ## Reproduction
 
-1. `git clone -b 8885 --single-branch git@github.com:MatthisLT/storybook-cases.git`
+1. `git clone -b 8885 --single-branch git@github.com:MatthisLT/storybook-cases.git .`
 2. `npm install`
 3. `npm run storybook`
 4. Visit [http://localhost:6006/?path=/story/ui-components-button--basic](http://localhost:6006/?path=/story/ui-components-button--basic)
