@@ -1,0 +1,16 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+
+import Button from './Button';
+import * as stories from './Button.stories.js';
+
+<Meta title="UI/Components/Button" Components={Button} />
+
+# Button
+
+I can define a story with the function imported from CSF:
+
+<Preview>
+  <Story name="Basic">
+    {stories.basic()}
+  </Story>
+</Preview>
